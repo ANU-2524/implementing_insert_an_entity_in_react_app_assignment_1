@@ -3,7 +3,7 @@
 import React from 'react';
 import Home from './Home';
 import {Routes , Route} from 'react-router-dom' ;
-import './App.css'; // Import global styles
+// import './App.css'; // Import global styles
 import AddData from './components/AddData.jsx';
 
 function App() {
