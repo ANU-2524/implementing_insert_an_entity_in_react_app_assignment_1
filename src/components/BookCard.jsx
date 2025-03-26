@@ -3,8 +3,8 @@
 import React from "react";
 import "./BookCard.css"; // Import the CSS for styling
 
-const BookCard = ({ book }) => {
-  const { title, author, description, coverImage } = book;
+const BookCard = ({ data }) => {
+  const { title, author, description, coverImage } = data;
 
   return (
     <div className="book-card">
